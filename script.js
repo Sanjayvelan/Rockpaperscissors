@@ -29,7 +29,6 @@ buttons.forEach((button)=>{
                 hScore.innerHTML = score.human;
                 cScore.innerHTML = score.computer; 
                 dScore.innerHTML = score.drawn;
-                result.innerHTML = gameCount;
                 checkWinner();
                 break;
             case "paper":
